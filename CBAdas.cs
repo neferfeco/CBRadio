@@ -27,6 +27,15 @@ namespace CBRadio
 
 
 
+        public CBAdas(string ido, int db, string nev)
+        {
+            string[] idoDarabok = ido.Split(':');
+            AdasIdejeOra = Convert.ToInt32(idoDarabok[0]);
+            AdasIdejePerc = Convert.ToInt32(idoDarabok[1]);
+            AdasSzam = db;
+            SoforNev = nev;
+        }
+
 
 
 
