@@ -19,6 +19,15 @@ namespace CBRadio
         private string fajlNev, fajlFejlec;
         private int sorokSzama;
 
+
+        public void Metodus()
+        {
+
+
+        }
+
+
+
         public FoAblak()
         {
             cbAdasok = new List<CBAdas>();
